@@ -1,0 +1,8 @@
+@charset "utf-8";
+$primary: #993068;
+
+@import "~bulma"; // or fallow the partial import example from docs.
+
+.button > span > * {
+  vertical-align: middle;
+}

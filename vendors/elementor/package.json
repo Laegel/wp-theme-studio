@@ -1,0 +1,40 @@
+{
+  "name": "wp-elementor-studio",
+  "extends": "../wp-theme-studio/package.json",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "-": "^0.0.1",
+    "babel-polyfill": "^6.26.0",
+    "bulma": "^0.8.2",
+    "ionicons": "^5.0.1",
+    "jszip": "^3.4.0",
+    "regexparam": "^1.3.0",
+    "sirv-cli": "^0.4.4",
+    "svelma": "^0.3.2",
+    "svelte-i18n": "^3.0.3",
+    "svelte-icons": "^2.1.0",
+    "svelte-router": "^3.0.0-alpha.2",
+    "svelte-router-spa": "^5.6.0",
+    "svelte-routing": "^1.4.2",
+    "svelte-spa-router": "^2.1.0",
+    "tauri": "file:../../../tauri/cli/tauri.js"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^12.0.0",
+    "@rollup/plugin-node-resolve": "^8.0.0",
+    "parcel-bundler": "^1.12.4",
+    "parcel-plugin-svelte": "^4.0.6",
+    "rollup": "^2.3.4",
+    "rollup-plugin-livereload": "^1.0.0",
+    "rollup-plugin-svelte": "^5.0.3",
+    "rollup-plugin-terser": "^5.1.2",
+    "sass": "^1.26.5",
+    "svelte": "^3.6.7"
+  },
+  "scripts": {
+    "dev": "parcel src/index.html --port 4000",
+    "build": "rm -rf dist && parcel build src/index.html --no-source-maps"
+  }
+}

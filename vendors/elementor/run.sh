@@ -1,0 +1,1 @@
+theme=uuid root_path=/home/laegel/Workspace/perso/wp-theme-studio/vendors/elementor wp server --docroot=/home/laegel/Workspace/perso/wp-theme-studio/wordpress/versions/5.4.1 --port=4444

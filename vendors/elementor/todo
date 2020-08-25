@@ -1,0 +1,25 @@
+The frontend will be a reflection of WP database delivered by Rust.
+Theme name = WP site title
+Templates = "template" post type items
+Theme creation involves the following steps:
+- creating a new wp-content folder
+- creating a new theme? I don't think so
+- creating a new database for that theme
+
+- bundle PHP? 
+
+
+- CPT builder (physical & virtual)
+- initial theme choice
+- Known plugins support (through virtual CPT definition as shortcuts)
+- forms?
+- remove unnecessary Elementor options & links
+- treeshake CSS (https://wpspeedmatters.com/remove-unused-css-from-wordpress/, https://purgecss.com/plugins/postcss.html#usage, https://github.com/purifycss/purifycss)
+gather all stylesheets used
+if only once, make a separate file and enqueue for specific template
+else, store in styles.css and make it loaded
+
+per page: treeshake
+globally: merge and remove duplicate
+- treeshake JS?
+- components import (drag & drop of WP extensions/PHP files)
