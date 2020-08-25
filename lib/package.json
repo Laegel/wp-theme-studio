@@ -1,0 +1,15 @@
+{
+  "name": "wp-theme-studio",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4",
+    "parcel-plugin-svelte": "^4.0.6",
+    "svelte": "^3.22.3"
+  },
+  "peerDependencies": {
+    "bulma": "^0.8.2",
+    "svelma": "^0.3.2"
+  }
+}
